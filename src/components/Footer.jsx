@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="border-t-2 border-[#545454] p-8   text-sm xl:text-base text-black">
-      <div className="flex flex-col w-full h-full gap-1">
+    <footer className="border-t-2 border-[#545454] p-8   text-sm xl:text-base text-black ">
+      <div className="flex flex-col w-full h-full gap-1 justify-center items-center sm:items-start text-center sm:text-left">
         <div className="flex flex-row  gap-1 xl:gap-8">
           <div>RED PLUS</div>
           <div>(주)레드플러스</div>

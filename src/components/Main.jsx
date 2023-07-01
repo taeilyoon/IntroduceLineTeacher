@@ -28,7 +28,7 @@ function Main() {
           </div>
         </div>
         <div>
-          <Image src={MainLogo} width={500} height={500} />
+          <Image src={MainLogo} width={500} height={500} alt="htsImage" />
         </div>
       </div>
 
@@ -53,7 +53,7 @@ function Main() {
           </div>
         </div>
         <div>
-          <Image src={MainLogo} width={500} height={500} />
+          <Image src={MainLogo} width={500} height={500} alt="htsImage" />
         </div>
       </div>
 
@@ -78,7 +78,7 @@ function Main() {
           </div>
         </div>
         <div>
-          <Image src={MainLogo} width={500} height={500} />
+          <Image src={MainLogo} width={500} height={500} alt="htsImage" />
         </div>
       </div>
     </div>
