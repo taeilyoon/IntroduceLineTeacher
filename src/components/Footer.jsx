@@ -17,7 +17,7 @@ function Footer() {
 
         <div className="flex flex-col xl:flex-row gap-1 xl:gap-8">
           <div>사무실 : 광주광역시 동구 중앙로 183, B1층</div>
-          <div>전화번호 : 031 893 2116</div>
+          <div>전화번호 : 031-893-2116</div>
           <div>E - Mail : redplus0419@gmail.com</div>
         </div>
 
