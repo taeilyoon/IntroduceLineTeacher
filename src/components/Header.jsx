@@ -1,15 +1,22 @@
 import Image from "next/image";
 import React from "react";
-import MainLogo from "public/icons/MainLogo2.svg";
+import RedPlus from "public/icons/MainLogo2.svg";
+import GtwinsLogo from "public/icons/gtwinslogo.png";
 import Link from "next/link";
 
 function Header() {
+  const platform = process.env.NEXT_PUBLIC_PLATFORM;
+
   return (
     <div className="sticky z-50 bg-white  top-0 p-4 border-b-2 border-[#545454] shadow-xl">
       <div className=" mx-auto flex flex-wrap flex-col md:flex-row  items-center ">
         <div className="flex title-font font-medium items-center  text-gray-900 mb-4 md:mb-0  w-40 max-[360px]:w-28  ">
           <Link href="/">
-            <Image src={MainLogo} alt="mainLogo" />
+            {platform === "eugene" ? (
+              <Image src={GtwinsLogo} alt="GtwinsLogo" />
+            ) : (
+              <Image src={RedPlus} alt="RedPlus" />
+            )}
           </Link>
         </div>
 
