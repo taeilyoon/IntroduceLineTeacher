@@ -27,6 +27,12 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# Eugene's environment file
+env.eugene
+
+# Yuanta's environment file
+env.yuanta
+
 # vercel
 .vercel
 
