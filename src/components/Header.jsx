@@ -12,10 +12,10 @@ function Header() {
       <div className=" mx-auto flex flex-wrap flex-col md:flex-row  items-center ">
         <div className="flex title-font font-medium items-center  text-gray-900 mb-4 md:mb-0  w-40 max-[360px]:w-28  ">
           <Link href="/">
-            {platform === "eugene" ? (
-              <Image src={GtwinsLogo} alt="GtwinsLogo" />
-            ) : (
+            {platform === "yuanta" ? (
               <Image src={RedPlus} alt="RedPlus" />
+            ) : (
+              <Image src={GtwinsLogo} alt="GtwinsLogo" />
             )}
           </Link>
         </div>
