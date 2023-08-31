@@ -28,7 +28,7 @@ function Header() {
               추세선생 네이버카페
             </div>
           </Link>
-          <Link href="https://www.youtube.com/@TV-sy5er" target="_blank">
+          <Link href="https://www.youtube.com/@DR_Trendline" target="_blank">
             <div className=" hover:text-gray-900 text-lg font-bold drop-shadow-lg  max-[360px]:text-base ">
               유튜브채널
             </div>

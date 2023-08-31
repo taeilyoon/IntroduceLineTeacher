@@ -17,9 +17,14 @@ function Main() {
               추세선생- <span className="text-black">HTS</span>
             </div>
             <div className=" self-center ">
-              <button className="flex text-xl items-center bg-gray-400 text-white font-bold border-0 py-1 px-3 focus:outline-none  rounded  cursor-not-allowed disabled">
-                준비중
-              </button>
+              <Link
+                href="https://gtwins77.cafe24.com/choo/Setup_%EC%B6%94%EC%84%B8%EC%84%A0%EC%83%9Dwith%EC%9C%A0%EC%A7%84_1_0.exe"
+                target="_blank"
+              >
+                <button className="flex text-xl items-center bg-[#54AC35] text-white font-bold border-0 py-1  px-3 focus:outline-none hover:bg-blue-500 rounded">
+                  다운로드
+                </button>
+              </Link>
             </div>
           </div>
           <div className=" pl-0 xl:pl-16 font-bold text-lg  w-max[360px]: gap-4 flex flex-col self-center justify-center w-full text-center xl:text-left  max-[360px]:text-base  max-[360px]:font-extrabold mb-2 xl:pr-12 pr:0 ">
@@ -42,7 +47,7 @@ function Main() {
               추세선생- <span className="text-black">WTS</span>
             </div>
             <div className=" self-center ">
-              <Link href="https://www.추세선생.com" target="_blank">
+              <Link href="https://xn--9g4bvetcu97d.com/notice" target="_blank">
                 <button className="flex text-xl items-center bg-[#54AC35] text-white font-bold border-0 py-1  px-3 focus:outline-none hover:bg-blue-500 rounded">
                   다운로드
                 </button>
