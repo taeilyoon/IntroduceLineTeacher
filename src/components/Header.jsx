@@ -7,15 +7,17 @@ import Link from "next/link";
 function Header() {
   const platform = process.env.NEXT_PUBLIC_PLATFORM;
 
+  console.log(platform);
+
   return (
     <div className="sticky z-50 bg-white  top-0 p-4 border-b-2 border-[#545454] shadow-xl">
       <div className=" mx-auto flex flex-wrap flex-col md:flex-row  items-center ">
         <div className="flex title-font font-medium items-center  text-gray-900 mb-4 md:mb-0  w-40 max-[360px]:w-28  ">
           <Link href="/">
-            {platform === "eugene" ? (
-              <Image src={GtwinsLogo} alt="GtwinsLogo" />
-            ) : (
+            {platform == "yuanta" ? (
               <Image src={RedPlus} alt="RedPlus" />
+            ) : (
+              <Image src={GtwinsLogo} alt="GtwinsLogo" />
             )}
           </Link>
         </div>
@@ -26,17 +28,14 @@ function Header() {
               추세선생 네이버카페
             </div>
           </Link>
-          <Link href="https://www.youtube.com/@TV-sy5er" target="_blank">
+          <Link href="https://www.youtube.com/@DR_Trendline" target="_blank">
             <div className=" hover:text-gray-900 text-lg font-bold drop-shadow-lg  max-[360px]:text-base ">
               유튜브채널
             </div>
           </Link>
-          <Link
-            href="https://www.myasset.com/extern/eventtotal/views/dmstcStock.jsp?mkt=keyword_naverpc_tradar&gclid=CjwKCAjw44mlBhAQEiwAqP3eVtCtdTiIYnP5TPcjoIOwD345q6QyK6oxlOKGBnubcxeiRki_hkoOOxoCEd0QAvD_BwE"
-            target="_blank"
-          >
+          <Link href="https://www.eugenefn.com/main.do" target="_blank">
             <div className="hover:text-gray-900 text-lg font-bold drop-shadow-lg  max-[360px]:text-base">
-              유안타증권
+              유진투자증권
             </div>
           </Link>
         </div>
